@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+}
+
+header{
+    min-height: 100px;
+}
+section{
+    min-height: 750px;
+    background-color: azure;
+}
