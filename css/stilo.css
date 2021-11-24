@@ -14,18 +14,56 @@ section{
 
 .card{
     background-color: blueviolet;
-    max-width: 400px;
-    min-width: 400px;
-    max-height: 200px;
-    display: flex; 
-    justify-content: center;
+    max-width: 200px;
+    min-width: 300px;
+    max-height: 400px;
+  
+    text-align: center;
     border-radius: 20px;
     padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
+    
 }
 
 .img_perfil img{
     width: 100px;
     height: 100px;
+    background-color: violet;
+}
+
+.nome{
+    color: white;
+    font-family: Montserrat;
+    background-color: yellowgreen;
+    margin-top: 10px;
+
+
+}
+
+.social{
+    text-decoration: none;
+    
+    
+    padding: 20px;
+    
+    background-color: yellow;
+
+}
+
+.social ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+    list-style: none;
+}
+.social ul li{
+    
+    padding: 0px 0px 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
