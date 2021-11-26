@@ -26,7 +26,7 @@ section{
     padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-top: -50px;
+    margin-top: -80px;
     box-shadow: black 0px 0px 30px -20px;
     
 }
@@ -75,3 +75,11 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: #C71585;
+}
+.fab{
+    font-size: 30px;
+    
+}
+
