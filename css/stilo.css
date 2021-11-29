@@ -9,7 +9,7 @@ header{
     
 }
 section{
-    min-height: 750px;
+    min-height: 650px;
     background-color: rgb(231, 231, 231);
     display: flex;
     justify-content: center;
@@ -68,10 +68,13 @@ section{
     justify-content: center;
     list-style: none;
 }
+
+/* Distância entre ícones sociais*/
 .social ul li{
     
-    padding: 0px 0px 0px 20px;
+    padding: 10px;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -90,13 +93,36 @@ a:hover{
     align-items: center;
     color: white;
     padding: 10px 30px 10px 30px;
-    background-image: linear-gradient(45deg, #C71585, #FF4500);
-    border-radius: 20px;
+    
+    
 }
 #link-what a{
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-decoration: none;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #C71585, #FF4500);
+    border: none;
+    color: white;
+    padding: 12px 22px 12px 22px;
+    border-radius: 50px;
+    
+}
+button:hover{
+    background-image: linear-gradient(45deg, #0c6e19, #0ff022);
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    margin-bottom: 0px;
+    font-family: Calibri;
+    background-color: rgb(231, 231, 231);
 }
 
