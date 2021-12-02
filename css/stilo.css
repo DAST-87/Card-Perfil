@@ -4,30 +4,31 @@
 
 header{
     min-height: 100px;
-    background-image: linear-gradient(45deg,#FF4500, #C71585);
+    background-color: rgb(18, 20, 29);
     height: 200px;
     
 }
 section{
     min-height: 650px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(18, 20, 29);
     display: flex;
     justify-content: center;
 }
 
 .card{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(18, 20, 29);
     max-width: 200px;
     min-width: 300px;
     max-height: 400px;
   
     text-align: center;
     border-radius: 20px;
+    border: blueviolet solid 1px;
     padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
     margin-top: -80px;
-    box-shadow: black 0px 0px 30px -20px;
+    
 
     
 }
@@ -39,7 +40,7 @@ section{
 }
 
 .nome{
-    color: rgb(29, 29, 29);
+    color: rgba(255, 255, 255, 0.849);
     font-family: Montserrat;
     margin-top: 10px;
     font-size: 20px;
@@ -49,6 +50,7 @@ section{
 }
 .sub_title{
     font-family: Montserrat;
+    color: blueviolet;
 }
 
 .social{
@@ -77,7 +79,7 @@ section{
 
 a{
     text-decoration: none;
-    color: black;
+    color: blueviolet;
 }
 a:hover{
     color: #C71585;
@@ -106,23 +108,21 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, #C71585, #FF4500);
+    background-color: blueviolet;
     border: none;
     color: white;
     padding: 12px 22px 12px 22px;
     border-radius: 50px;
     
 }
-button:hover{
-    background-image: linear-gradient(45deg, #0c6e19, #0ff022);
 
-}
 footer{
     display: flex;
     justify-content: center;
     min-height: 100px;
     margin-bottom: 0px;
     font-family: Calibri;
-    background-color: rgb(231, 231, 231);
+    color: blueviolet;
+    background-color: rgb(18, 20, 29);
 }
 
